@@ -1,0 +1,15 @@
+import numpy as np
+
+numbers_list = [15, 30, 75, 80, 40]
+numbers_array = np.array(numbers_list)
+
+mean_value = np.mean(numbers_array)
+max_value = np.max(numbers_array)
+sum_value = np.sum(numbers_array)
+
+
+
+print(f"numbers: {numbers_array}")
+print(f"mean: {mean_value}")
+print(f"max: {max_value}")
+print(f"sum: {sum_value}")
